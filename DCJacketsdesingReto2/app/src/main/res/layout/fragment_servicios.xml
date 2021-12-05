@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".fragment_servicios">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="603dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amita"
+            android:text="Servicios"
+            android:textAlignment="center"
+            android:textColor="#030C40"
+            android:textColorHighlight="#2196F3"
+            android:textDirection="firstStrong"
+            android:textSize="48sp"
+            android:typeface="sans" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="?android:attr/listDivider" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen5"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto5"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/andada"
+                    android:text="Diseñamos chquetas para tu empresa"
+                    android:textColor="#090909"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen6"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto6"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/andada"
+                    android:text="Renovamos tu chaqueta vieja"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen7"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto7"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/andada"
+                    android:text="Talleres de diseño"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    tools:context=".fragment_productos">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/amita"
+            android:text="Productos"
+            android:textAlignment="center"
+            android:textColor="#030C40"
+            android:textColorHighlight="#2196F3"
+            android:textDirection="firstStrong"
+            android:textSize="48sp"
+            android:typeface="sans" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="?android:attr/listDivider" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen1"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto1"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/andada"
+                    android:text="Chaquetas deportivas desde 30 mil pesos"
+                    android:textColor="#090909"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen2"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto2"
+                    android:layout_width="209dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/andada"
+                    android:text="Chaquetas formales desde 50 mil pesos"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="293dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen3"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto3"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/andada"
+                    android:text="Chaquetas casuales desde 40 mil pesos"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imagen4"
+                    android:layout_width="107dp"
+                    android:layout_height="76dp"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/texto4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/andada"
+                    android:text="Chaquetas para invierno desde 35 mil pesos"
+                    android:textAlignment="textStart"
+                    android:textColor="#070707"
+                    android:textSize="20sp"
+                    android:typeface="sans" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
